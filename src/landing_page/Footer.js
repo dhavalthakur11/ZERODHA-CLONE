@@ -59,7 +59,7 @@ All rights reserved.</p>
         Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy
         redressal of the grievances
       </p>
-      <p><a href=''>Smart Online Dispute Resolution</a> | <a href=''>Grievances Redressal Mechanism</a></p>
+      <p className='links'><a href=''>Smart Online Dispute Resolution</a> | <a href=''>Grievances Redressal Mechanism</a></p>
       <p>
         Investments in securities market are subject to market risks; read all
         the related documents carefully before investing.
@@ -73,7 +73,7 @@ All rights reserved.</p>
         Check your securities / MF / bonds in the consolidated account statement
         issued by NSDL/CDSL every month.
       </p>
-      <p>
+      <p className='links'>
         "Prevent unauthorised transactions in your account. Update your mobile
         numbers/email IDs with your stock brokers. Receive information of your
         transactions directly from Exchange on your mobile/email at the end of
