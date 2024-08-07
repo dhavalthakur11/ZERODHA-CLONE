@@ -36,7 +36,13 @@ function ProductPage() {
         googlePlay=""
         appStore=""
       />
-      <RightSection />
+      <RightSection
+        imageURL="media/images/kiteconnect.png"
+        productName="Kite Connect API"
+        productDescription="Build powerful trading platforms and experiences with our 
+        super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase."
+        learnMore=""
+      />
       <LeftSection
         imageURL="media/images/varsity.png"
         productName="Varsity mobile"
@@ -47,8 +53,8 @@ function ProductPage() {
         googlePlay=""
         appStore=""
       />
-      <RightSection />
-      <Univers />
+      <p className="text-center mt-5 p-5 fs-4">Want to know more about our technology stack? Check out the <a href="">Zerodha.tech</a> blog.</p>
+      <Univers/>
     </>
   );
 }

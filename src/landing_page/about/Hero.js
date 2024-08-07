@@ -27,7 +27,7 @@ function Hero() {
             all Indian retail trading volumes.
           </p>
         </div>
-        <div className="col-6 p-5 links">
+        <div className="col-6 p-5">
         <p>
           In addition, we run a number of popular open online educational and
           community initiatives to empower retail traders and investors.</p>
