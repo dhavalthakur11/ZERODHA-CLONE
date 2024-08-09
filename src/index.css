@@ -28,3 +28,27 @@ code {
 a{
   text-decoration: none;
 }
+#supportHero{
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+#supportHero a {
+  color: white;
+  padding: 10px;
+  line-height: 1.8;
+}
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 180px;
+}
+#supportHero input{
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+}
+#supportRow{
+  margin-left: 170px;
+}
