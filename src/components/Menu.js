@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import { Link } from "react-router-dom";
 
 const Menu = () => {
@@ -68,7 +69,7 @@ const Menu = () => {
           <li>
             <Link
               style={{ textDecoration: "none" }}
-              to="/funds"
+              to="funds"
               onClick={() => handleMenuClick(4)}
             >
               <p className={selectedMenu === 4 ? activeMenuClass : menuClass}>
@@ -80,9 +81,9 @@ const Menu = () => {
             <Link
               style={{ textDecoration: "none" }}
               to="/apps"
-              onClick={() => handleMenuClick(5)}
+              onClick={() => handleMenuClick(6)}
             >
-              <p className={selectedMenu === 5 ? activeMenuClass : menuClass}>
+              <p className={selectedMenu === 6 ? activeMenuClass : menuClass}>
                 Apps
               </p>
             </Link>
